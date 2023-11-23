@@ -28,4 +28,9 @@ public class QuestionServicesImpl implements QuestionServices {
     public Question getbyid(Long id) {
         return questionRepository.findById(id).orElseThrow(()-> new RuntimeException("Quetion is not found"));
     }
+
+    @Override
+    public List<Question> findByQuizId(Long quizId) {
+        return questionRepository.findByQuizId(quizId);
+    }
 }

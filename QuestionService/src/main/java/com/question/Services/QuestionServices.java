@@ -15,4 +15,8 @@ public interface QuestionServices {
 
     //Getbyid
     Question getbyid(Long id);
+
+    //GetQuiz
+
+    List<Question> findByQuizId(Long quizId);
 }
