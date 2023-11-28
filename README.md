@@ -16,5 +16,5 @@ The Quiz Service is responsible for creating and managing quizzes.
 
 ##### Clone the Repository
 ```bash
-git clone https://github.com/your-username/quiz-service.git
-cd quiz-service
+git clone https://github.com/anurag121124/SpringBoot3QuizMicroservices/
+cd SpringBoot3QuizMicroservices
